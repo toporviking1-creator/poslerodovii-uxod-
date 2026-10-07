@@ -1,6 +1,6 @@
 // Офлайн-режим: приложение открывается без интернета после первого захода.
 // При обновлении контента поменяйте VERSION — у пациенток подтянется новая версия.
-const VERSION = 'pr-v1';
+const VERSION = 'pr-v3';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
